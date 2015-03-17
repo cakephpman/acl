@@ -157,7 +157,6 @@ class AclExtras
             $dotPlugin .= '.';
             $pluginPath .= '/';
         }
-        $appIndex = array_search($plugin . 'AppController', $controllers);
         // look at each controller
         $controllersNames = [];
         foreach ($controllers as $controller) {
